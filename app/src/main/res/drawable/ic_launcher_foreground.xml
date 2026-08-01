@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Centered Golden Crescent Moon and Star -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="1.2"
+        android:scaleY="1.2">
+        <!-- Star -->
+        <path
+            android:fillColor="#FFD700"
+            android:pathData="M64,36 l1.5,3.5 l3.5,1.5 l-3.5,1.5 l-1.5,3.5 l-1.5,-3.5 l-3.5,-1.5 l3.5,-1.5 z" />
+        <!-- Crescent Moon -->
+        <path
+            android:fillColor="#FFD700"
+            android:pathData="M54,24 A 26,26 0 1,0 80,50 A 20,20 0 1,1 54,24 z" />
+    </group>
+</vector>
